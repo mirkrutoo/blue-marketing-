@@ -1,0 +1,158 @@
+@import url(fonts.css);
+
+.analiz {
+    margin-top: 30px;
+    margin-bottom: 48px;
+}
+
+.analiz-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.analiz-item__title {
+    color: #2A86B1;
+    text-align: center;
+    font-family: 'RB';
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 180px;
+    width: 100%;
+}
+
+.analiz-block_item {
+    max-width: 255px;
+    width: 100%;
+    border-radius: 15px;
+    background: #FFF;
+    padding: 22px 18px 19px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.analiz-icon {
+    color: #3FA5D5;
+    font-size: 100px;
+    margin-top: 59px;
+    margin-bottom: 70px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-left {
+    max-width: 825px;
+    width: 100%;
+}
+
+.info-left__title {
+    margin-left: 18px;
+    color: #686868;
+    text-align: justify;
+    font-family: 'RB';
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+
+.info-left__text {
+    color: #545454;
+    text-align: justify;
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px;
+    background: #FFF;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.info-left__text:nth-of-type(2) {
+    margin: 30px 0;
+}
+
+.info-right {
+    max-width: 255px;
+    width: 100%;
+}
+
+.info-right__title {
+    color: #686868;
+    font-family: 'RB';
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 18px;
+}
+
+.info-right__block {
+
+
+    margin-top: 22px;
+}
+
+.info-right__miniBlock {
+    display: flex;
+    padding: 15px 20px 15px 15px;
+    margin-bottom: 24px;
+    background: #FFF;
+    border-radius: 8px;
+}
+
+.info-right_miniBlock:nth-of-type(4) {
+    margin-top: 0;
+}
+
+.info-miniBlock__box {
+    margin-left: 15px;
+}
+
+.info-miniBlock__title {
+    margin-bottom: 5px;
+    color: #323232;
+    text-align: justify;
+    font-family: "RR";
+    font-size: 17px;
+    line-height: 94.5%;
+    /* 16.065px */
+
+}
+
+.info-miniBlock__text {
+    color: #000;
+    font-family: 'RL';
+    font-size: 14px;
+    line-height: 94.5%;
+    max-width: 155px;
+    width: 100%;
+}
+
+@media (max-width: 1140px) {
+    .analiz-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .info-left__title{
+        text-align: center;
+    }
+    .info-right {
+        max-width: 100%;
+        margin-top: 30px;
+        
+    }
+    .info-right__miniBlock{
+        justify-content: center;
+    }
+    .info-right__title{
+        text-align: center;
+    }
+}

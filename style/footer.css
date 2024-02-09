@@ -1,0 +1,55 @@
+@import url(fonts.css);
+
+.footer {
+    background: #3FA5D5;
+    padding: 40px ;
+}
+
+
+
+.footer-content__info {
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.footer-content__title {
+    color: #FFF;
+    font-family: 'RB';
+    font-size: 50px;
+    line-height: 59px;
+}
+
+.footer-content__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right__numer {
+    color: #FFF;
+    font-family: 'RB';
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 15px;
+
+}
+
+.footer-right__mail {
+    color: #FFF;
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* **** Media start**** */
+@media (max-width: 700px ) {
+    .footer-content__info {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-content__right{
+        margin-top: 15px;
+    }
+}
+
+/* **** Media end **** */
